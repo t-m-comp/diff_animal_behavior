@@ -1,0 +1,452 @@
+desc: (none)
+cmd: ./cluster_method
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=4746968
+mem_heap_B=1984
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4749048
+mem_heap_B=4024
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4749084
+mem_heap_B=4044
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4751273
+mem_heap_B=8140
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=4763507
+mem_heap_B=8828
+mem_heap_extra_B=60
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=4765601
+mem_heap_B=8916
+mem_heap_extra_B=76
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=4769199
+mem_heap_B=8922
+mem_heap_extra_B=94
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=4771253
+mem_heap_B=8946
+mem_heap_extra_B=110
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=4771295
+mem_heap_B=9458
+mem_heap_extra_B=118
+mem_stacks_B=0
+heap_tree=detailed
+n6: 9458 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x5F08CAD: register_printf_specifier (reg-printf.c:56)
+  n1: 4096 0x6FA6540: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 4096 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 4096 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 4096 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 2040 0x5F0ABC3: register_printf_modifier (reg-modifier.c:69)
+  n1: 2040 0x6FA6519: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 2040 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 2040 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 2040 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1984 0x5F0AE6D: register_printf_type (reg-type.c:43)
+  n1: 1984 0x6FA64FE: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 1984 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 1984 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 1984 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 776 0x6A77331: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 688 0x6B4AB55: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n1: 688 0x6B4B239: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 688 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 688 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 688 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 688 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n2: 536 0x6A77283: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 512 0x6B52FAB: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n1: 512 0x6B4B2D2: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 512 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 512 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 512 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 512 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+  n0: 24 in 1 place, below massif's threshold (1.00%)
+ n0: 26 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=4773525
+mem_heap_B=10146
+mem_heap_extra_B=126
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=4773705
+mem_heap_B=10234
+mem_heap_extra_B=142
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=4773824
+mem_heap_B=10241
+mem_heap_extra_B=159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=4773912
+mem_heap_B=10265
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=4773954
+mem_heap_B=10777
+mem_heap_extra_B=183
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=4774066
+mem_heap_B=11465
+mem_heap_extra_B=191
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=4774267
+mem_heap_B=11553
+mem_heap_extra_B=207
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=4774385
+mem_heap_B=11560
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=4774471
+mem_heap_B=11584
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=4774513
+mem_heap_B=11840
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=detailed
+n6: 11840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x5F08CAD: register_printf_specifier (reg-printf.c:56)
+  n1: 4096 0x6FA6540: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 4096 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 4096 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 4096 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 2328 0x6A77331: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n3: 2064 0x6B4AB55: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n1: 688 0x6B4B239: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 688 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 688 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 688 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 688 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+   n1: 688 0x6B4B2FB: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 688 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 688 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 688 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 688 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+   n1: 688 0x6B4B3B6: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 688 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 688 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 688 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 688 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+  n1: 264 0x6B4BCC0: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n0: 264 in 3 places, all below massif's threshold (1.00%)
+ n1: 2040 0x5F0ABC3: register_printf_modifier (reg-modifier.c:69)
+  n1: 2040 0x6FA6519: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 2040 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 2040 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 2040 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1984 0x5F0AE6D: register_printf_type (reg-type.c:43)
+  n1: 1984 0x6FA64FE: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 1984 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 1984 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 1984 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 1352 0x6A77283: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n3: 1280 0x6B52FAB: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n1: 512 0x6B4B2D2: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 512 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 512 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 512 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 512 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+   n1: 512 0x6B4B38D: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 512 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 512 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 512 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 512 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+   n1: 256 0x6B4B444: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+    n1: 256 0x6A76866: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+     n1: 256 0x40106B8: call_init.part.0 (dl-init.c:72)
+      n1: 256 0x40107C9: _dl_init (dl-init.c:30)
+       n0: 256 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+  n0: 72 in 1 place, below massif's threshold (1.00%)
+ n0: 40 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=4784371
+mem_heap_B=84544
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=4952623
+mem_heap_B=84581
+mem_heap_extra_B=275
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=4954708
+mem_heap_B=84600
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=4966408
+mem_heap_B=84673
+mem_heap_extra_B=311
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=4969316
+mem_heap_B=84673
+mem_heap_extra_B=311
+mem_stacks_B=0
+heap_tree=peak
+n7: 84673 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x569EEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 4096 0x5F08CAD: register_printf_specifier (reg-printf.c:56)
+  n1: 4096 0x6FA6540: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 4096 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 4096 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 4096 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 2328 0x6A77331: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 2064 0x6B4AB55: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n0: 2064 in 3 places, all below massif's threshold (1.00%)
+  n0: 264 in 1 place, below massif's threshold (1.00%)
+ n1: 2040 0x5F0ABC3: register_printf_modifier (reg-modifier.c:69)
+  n1: 2040 0x6FA6519: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 2040 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 2040 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 2040 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1984 0x5F0AE6D: register_printf_type (reg-type.c:43)
+  n1: 1984 0x6FA64FE: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 1984 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 1984 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 1984 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 1352 0x6A77283: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 1280 0x6B52FAB: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n0: 1280 in 3 places, all below massif's threshold (1.00%)
+  n0: 72 in 1 place, below massif's threshold (1.00%)
+ n0: 169 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=4969316
+mem_heap_B=84636
+mem_heap_extra_B=292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=4974230
+mem_heap_B=84715
+mem_heap_extra_B=301
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=4974330
+mem_heap_B=84696
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=4978801
+mem_heap_B=84853
+mem_heap_extra_B=291
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=4978909
+mem_heap_B=84774
+mem_heap_extra_B=282
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=4988429
+mem_heap_B=84893
+mem_heap_extra_B=299
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4990442
+mem_heap_B=85085
+mem_heap_extra_B=307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=5062374
+mem_heap_B=85213
+mem_heap_extra_B=315
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=5068471
+mem_heap_B=85085
+mem_heap_extra_B=307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=5105028
+mem_heap_B=85065
+mem_heap_extra_B=287
+mem_stacks_B=0
+heap_tree=detailed
+n7: 85065 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x569EEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 4096 0x5F08CAD: register_printf_specifier (reg-printf.c:56)
+  n1: 4096 0x6FA6540: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 4096 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 4096 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 4096 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 2328 0x6A77331: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 2064 0x6B4AB55: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n0: 2064 in 3 places, all below massif's threshold (1.00%)
+  n0: 264 in 1 place, below massif's threshold (1.00%)
+ n1: 2040 0x5F0ABC3: register_printf_modifier (reg-modifier.c:69)
+  n1: 2040 0x6FA6519: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 2040 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 2040 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 2040 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1984 0x5F0AE6D: register_printf_type (reg-type.c:43)
+  n1: 1984 0x6FA64FE: ??? (in /usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0)
+   n1: 1984 0x40106B8: call_init.part.0 (dl-init.c:72)
+    n1: 1984 0x40107C9: _dl_init (dl-init.c:30)
+     n0: 1984 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n2: 1352 0x6A77283: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+  n1: 1280 0x6B52FAB: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.3.0.0)
+   n0: 1280 in 3 places, all below massif's threshold (1.00%)
+  n0: 72 in 1 place, below massif's threshold (1.00%)
+ n0: 561 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=5106104
+mem_heap_B=83025
+mem_heap_extra_B=271
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=5107466
+mem_heap_B=78929
+mem_heap_extra_B=263
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=5107497
+mem_heap_B=76945
+mem_heap_extra_B=255
+mem_stacks_B=0
+heap_tree=empty
